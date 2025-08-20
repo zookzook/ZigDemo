@@ -42,16 +42,16 @@ inputs: none specified
 Estimated total run time: 14 s
 
 Benchmarking ip_trie ...
-Benchmarking zip_ip_trie ...
+Benchmarking zig_ip_trie ...
 Calculating statistics...
 Formatting results...
 
 Name                  ips        average  deviation         median         99th %
-zip_ip_trie         53.34       18.75 ms     ±1.11%       18.65 ms       19.33 ms
+zig_ip_trie         53.34       18.75 ms     ±1.11%       18.65 ms       19.33 ms
 ip_trie              6.22      160.85 ms     ±1.49%      159.82 ms      166.22 ms
 
 Comparison:
-zip_ip_trie         53.34
+zig_ip_trie         53.34
 ip_trie              6.22 - 8.58x slower +142.10 ms
 
 ```
